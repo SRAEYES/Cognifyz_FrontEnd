@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: #f4f7fc;
+      }
+      header {
+        background-color: #3d4145;
+        color: white;
+      }
+      .navbar {
+        background-color: #486888 !important;
+      }
+      .navbar a {
+        color: white !important;
+      }
+      .navbar .nav-link.active {
+        color: #ffcc00 !important;
+      }
+      footer {
+        background-color: #222;
+        color: white;
+      }
+      .category-header {
+        background-color: #1e2021;
+        color: white;
+        padding: 0.5rem;
+        border-radius: 5px;
+      }
+      .career-list-item {
+        background-color: #ffffff;
+        border: 1px solid #dee2e6;
+        margin: 1rem 0;
+        padding: 1.25rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .career-list-item:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 6px 12px rgba(140, 80, 80, 0.15);
+      }
+      .career-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+      }
+      .career-description {
+        font-size: 1rem;
+        color: #555;
+      }
+      .apply-btn {
+        background-color: #1e1f20;
+        color: white;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+      .apply-btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="py-3 border-bottom">
+      <div class="container d-flex justify-content-between align-items-center">
+        <img
+          src="image.png"
+          alt="Logo"
+          class="rounded-circle"
+          style="width: 175px; height: 85px"
+        />
+        <div class="text-end">
+          <span class="d-block">📍 Nagpur, Maharashtra</span>
+          <span>✉️ cognifyztechnologies@gmail.com</span>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="career.html">Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="internships.html">Internships</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container py-5">
+      <h1 class="text-center mb-4">Career Opportunities</h1>
+      <p class="text-center mb-5">
+        Join our dynamic team and contribute to innovative projects. Explore
+        open positions and take the next step in your career at Cognifyz
+        Technologies.
+      </p>
+
+      <!-- Career Opportunities List -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="career-list-item">
+            <div class="career-title">Software Engineer</div>
+            <div class="career-description">
+              Develop cutting-edge software solutions, work on innovative
+              projects, and grow your skills with us. Strong problem-solving
+              skills required.
+            </div>
+            <a href="apply.html" class="apply-btn mt-3 d-block text-center"
+              >Apply Now</a
+            >
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="career-list-item">
+            <div class="career-title">Data Analyst</div>
+            <div class="career-description">
+              Analyze and interpret data to drive business insights. Proficiency
+              in Python, SQL, and data visualization tools like Power BI or
+              Tableau.
+            </div>
+            <a href="apply.html" class="apply-btn mt-3 d-block text-center"
+              >Apply Now</a
+            >
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="career-list-item">
+            <div class="career-title">Business Development Manager</div>
+            <div class="career-description">
+              Drive business growth and establish strategic partnerships. Strong
+              communication and negotiation skills are a must.
+            </div>
+            <a href="apply.html" class="apply-btn mt-3 d-block text-center"
+              >Apply Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white py-3">
+      <p class="text-center mb-0">
+        © 2024 Cognifyz Technologies. All Rights Reserved.
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

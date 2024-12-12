@@ -1,0 +1,253 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  transition: all 0.5s ease;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.5s ease;
+}
+
+#textContent {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.right-info {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.small-image-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/* Navigation section styles */
+.navigation {
+  padding: 10px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #e5dddd;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.divider {
+  color: #bbb;
+}
+
+.nav-btn {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: #7ea87f;
+  color: white;
+  border: none;
+}
+
+.apply-btn {
+  background-color: #907269;
+}
+
+.nav-btn:hover {
+  background-color: #5d795f;
+}
+
+.apply-btn:hover {
+  background-color: #916c61;
+}
+
+/* Users section styles */
+.users-section {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: 20px;
+}
+
+.users-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#users-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.user {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgb(242, 239, 239);
+}
+
+.user h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.user p {
+  margin: 5px 0;
+}
+
+.user a {
+  text-decoration: none;
+  color: #0288d1;
+}
+
+.user a:hover {
+  text-decoration: underline;
+}
+
+/* Footer section styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.5s ease;
+}
+
+/* Background Image for right side */
+.background-image {
+  flex: 0 0 40%;
+  background-size: cover;
+  height: 500px;
+  border-radius: 10px;
+}
+
+/* Additional styling for button and text sections */
+.main-text {
+  margin-bottom: 15px;
+}
+
+.large-text {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.medium-text {
+  font-size: 1.5em;
+  color: #666;
+}
+
+.small-text {
+  font-size: 1.2em;
+  color: #999;
+}
+
+/* Styling for the 'Change Background Color' button */
+#changeBackgroundButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#changeBackgroundButton:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the top section */
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Styling for the right-side info (Location, Email) */
+.right-info span {
+  margin-right: 15px;
+}
+
+/* Form section styling */
+#form-section {
+  background-color: #f9f9f9;
+  padding: 40px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#contactForm label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#contactForm input,
+#contactForm textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#contactForm button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#contactForm button:hover {
+  background-color: #45a049;
+}
+
+#formFeedback {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #ff5722;
+}
+
+.hidden {
+  display: none;
+}
